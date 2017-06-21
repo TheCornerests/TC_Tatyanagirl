@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MiSTERMIND</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'; /* nos remite a la página web para enlazar las imagenes de los iconos "fa fa-circle" y "fa fa-circle-o"*/
+
+/*		.grande{
+			width: 6em;
+			height: 6em;
+		}
+		img{
+			width: 5em;
+			height: 5em;
+		}
+*/
+		button{
+			border-radius: 7px;
+		}
+	</style>
+	
+	<script type="text/javascript">
+
+		// *************** DECLARACIÓN DE VARIABLES ********************
+
+		var resul=[];// valor que introduce el usuario
+		var maquina=[];//valor que genera la máquina
+		var comprobacion=[];//resultado de la comprobacion
+
+		var colores=["redb.png","yellowb.png","blackb.png","blueb.png","greenb.png","greyb.png","orangeb.png","purpleb.png"]; // aqui tenemos que modificar la ruta de la imagen
+		
+
+		//var toguarra = ["<img src='"+ colores[0] +"'>","<img src='"+ colores[1] +"'>","<img src='"+ colores[2] +"'>","<img src='"+ colores[3] +"'>","<img src='"+ colores[4] +"'>","<img src='"+ colores[5] +"'>","<img src='"+ colores[6] +"'>","<img src='"+ colores[7] +"'>"];
+
+		var f=0; //identificador de la fila de la taula
+		var p=0; // identificador de la columna de la taula
+		var i; // recorre para random
+		var j; // recorre para colores
+		var k; // recorre comprobacion para mostrar
+		var y=0; // variable que comprueba si está todo correcto
+
+		// *************** DECLARACIÓN DE FUNCIONES ********************
+
+		function azar() {
+		  for (var i = 0; i < 4; i++) {
+		  	   var x = Math.floor(Math.random() * 8); // Random al array donde están los 8 colores.
+		    for (var j = 0; j < colores.length; j++) {
+		    	if (x==j) {
+					document.getElementById("demo"+i).innerHTML = "<img src='"+ colores[j] + "'>"
+
+					maquina.push(colores[j]);
+		    	} // close if
+		    } // close for (j)
+		  } // close for (i)
+		} // close function azar() 
+
+		function select(quin){ //
+			document.getElementById("p"+f+p).innerHTML="<img src='" + quin + "'>";
+			console.log("p"+f+p);
+
+			if(p<3){
+				p++;
+			}else if(f<=3){
+				p=0;
+				f++;
+			}
+			resul.push(quin);
+		 }// close select()
+
+		 function check(){
+		 	comprobacion=[]; // ponemos el array de comprobación vacia para que se sobreescriban los datos.
+		 	//comparar arrays resul y maquina (sólo la posición)
+		 	for (var t = 0; t < 4; t++) {
+	 			if(resul[t]==maquina[t]){
+					comprobacion.push('<i class="fa fa-circle" aria-hidden="true"></i>');
+	 			}else if(resul.indexOf(maquina[t])!=-1){
+	 				comprobacion.push('<i class="fa fa-circle-o" aria-hidden="true"></i>');
+	 			}
+	 		}//cierra for
+	 		comprobacion.sort(); //para que me desordene el resultado
+	 		// comprobar si existe el color en otra posición
+	 		for (var k = 0; k < comprobacion.length; k++) {
+	 			//document.getElementById("r"+k).innerHTML='<i class="fa fa-circle" aria-hidden="true"></i>'
+	 			document.getElementById("r"+(f-1)+k).innerHTML=comprobacion[k];
+	 		}
+		}//cierra function check()
+
+		function estilo() {
+				document.getElementById("bien").style.visibility="hidden";
+				document.getElementById("mal").style.visibility="hidden";
+		}
+
+		function final(){
+			check(); // Primero llamamos a la función Check y verifica si lo introducido es correcto o no.
+			for (w=0;w<=3;w++){
+			 console.log(resul[w] + " - "+ maquina[w]);
+			//for (y=0;y<maquina.length;y++){ 
+				if (resul[w] == maquina[w]){
+					w++;
+					y++;
+				}
+		 		if (y==4) {
+		 		document.getElementById("bien").style.visibility="initial";	
+		 		}
+		 	} //cierra 1 for
+		 	y=0;
+			resul=[];
+	 	}//cierra function final
+
+		// function reset(){
+		// }
+
+		window.onload = function(){
+			azar();
+			estilo();
+		}
+	</script>
+</head>
+<body>
+	<h1>MisterMind</h1>
+	<p>Si has acertado y te sale:
+	<br><i class="fa fa-circle" aria-hidden="true"></i> = Posición y color
+	<br><i class="fa fa-circle-o" aria-hidden="true"></i> = Sólo Color</p>
+	<p>Si no sabes como funciona el MasterMind, <a href="https://es.wikipedia.org/wiki/Mastermind" target="_blank">haz clic aquí</a></p>
+
+	<!-- Tabla dónde consta de forma aleatoria lo que debe adivinar el usuario -->
+	<div>
+		<table border="1">
+			<tr>
+				<td id="demo0"></td>
+				<td id="demo1"></td>
+				<td id="demo2"></td>
+				<td id="demo3"></td>
+			</tr>
+		</table>		
+	</div>
+	<!-- Tabla dónde el usuario introduce sus resultados -->
+	<div>
+		<table border="1">
+		<!-- hay que anadir hasta 10, por el momento sólo hay 4 intentos-->
+			<tr>
+				<td id="p30"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></td>
+				<td id="p31"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></td>
+				<td id="p32"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></td>
+				<td id="p33"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></td>
+				<td>
+					<table>
+						<tr>
+							<td id="r30"></td>
+							<td id="r31"></td>
+						</tr>
+						<tr>
+							<td id="r32"></td>
+							<td id="r33"></td>
+						</tr>
+					</table>
+				</td> <!-- RESULTADOS --> 
+				<td>
+				<button onclick="final()">Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td id="p20"></td>
+				<td id="p21"></td>
+				<td id="p22"></td>
+				<td id="p23"></td>
+				<td>
+					<table>
+						<tr>
+							<td id="r20"></td>
+							<td id="r21"></td>
+						</tr>
+						<tr>
+							<td id="r22"></td>
+							<td id="r23"></td>
+						</tr>
+					</table>
+				</td> <!-- RESULTADOS -->
+				<td>
+				<button onclick="final()">Check</button>
+					
+				</td> 
+			</tr>
+			<tr>
+				<td id="p10"></td>
+				<td id="p11"></td>
+				<td id="p12"></td>
+				<td id="p13"></td>
+				<td>
+					<table>
+						<tr>
+							<td id="r10"></td>
+							<td id="r11"></td>
+						</tr>
+						<tr>
+							<td id="r12"></td>
+							<td id="r13"></td>
+						</tr>
+					</table>
+				</td> <!-- RESULTADOS --> 
+				<td>
+				<button onclick="final()">Check</button>
+					
+				</td>
+			</tr>
+			<tr>
+				<td id="p00"></td>
+				<td id="p01"></td>
+				<td id="p02"></td>
+				<td id="p03"></td>
+				<td>
+					<table>
+						<tr>
+							<td id="r00"></td>
+							<td id="r01"></td>
+						</tr>
+						<tr>
+							<td id="r02"></td>
+							<td id="r03"></td>
+						</tr>
+					</table>
+				</td> <!-- RESULTADOS -->
+				<td>
+				<button onclick="final()">Check</button>
+					
+				</td> 
+			</tr>
+			
+		</table>
+	</div>
+
+	<div id="circulitos"> <!-- seleccionamos imágenes -->
+		<button onclick="select(colores[0])" ><img src="redb.png" id="c0"></button>
+		<button onclick="select(colores[1])"><img src="yellowb.png" id="c1"></button>
+		<button onclick="select(colores[2])"><img src="blackb.png" id="c2"></button>
+		<button onclick="select(colores[3])"><img src="blueb.png" id="c3"></button>
+		<button onclick="select(colores[4])"><img src="greenb.png" id="c4"></button>
+		<button onclick="select(colores[5])"><img src="greyb.png" id="c5"></button>
+		<button onclick="select(colores[6])"><img src="orangeb.png" id="c6"></button>
+		<button onclick="select(colores[7])"><img src="purpleb.png" id="c7"></button>
+	</div>
+	
+
+	<p id="bien">Felicidades</p>
+	<p id="mal">MATAAAAAAOOOOOOOO!</p>
+
+	<img src="armenia.jpg">
+
+</body>
+</html>

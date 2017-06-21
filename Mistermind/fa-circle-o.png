@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://fontawesome.io/icon/circle-o/ -->
+<html lang="en" class="gr__fontawesome_io fas-events-icons-ready fas-events-typefaces-proxima-nova-ready fas-events-typefaces-proxima-nova-600-normal-ready fas-events-typefaces-proxima-nova-normal-normal-ready fas-events-typefaces-proxima-nova-300-normal-ready fas-events-typefaces-museo-slab-ready fas-events-typefaces-museo-slab-500-normal-ready fas-events-typefaces-proxima-nova-sc-ready fas-events-typefaces-proxima-nova-sc-300-normal-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Basic Page Needs
+ ================================================== -->
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Font Awesome, the iconic font and CSS framework">
+  <meta name="author" content="Dave Gandy">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="http://fontawesome.io/assets/ico/favicon.ico">
+
+  <title>fa-circle-o: Font Awesome Icons</title>
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="./fa-circle-o_files/site.css">
+  <link rel="stylesheet" href="./fa-circle-o_files/pygments.css">
+  <link rel="stylesheet" href="./fa-circle-o_files/font-awesome.css">
+
+  <!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="./fa-circle-o_files/590758314440297" async=""></script><script async="" src="./fa-circle-o_files/fbevents.js.descarga"></script><script src="./fa-circle-o_files/ga.js.descarga"></script><script src="./fa-circle-o_files/ffe176a3.js.descarga"></script><link rel="stylesheet" href="./fa-circle-o_files/woff2.css" media="all">
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = 'https://www.google-analytics.com/ga.js';
+      var s = document.scripts[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<script id="_carbonads_projs" type="text/javascript" src="./fa-circle-o_files/C6AILKT.json"></script><script id="_bsa_srv-CVADP2Y" type="text/javascript" src="./fa-circle-o_files/inventory"></script></head>
+<body class="font-awesome " data-gr-c-s-loaded="true">
+  <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
+    <div class="hidden-print fa5 collapse in" id="banner" aria-expanded="true">
+  <div class="container">
+    <div class="message-container">
+      <div class="tagline">
+        <span id="rotating-message">Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!</span>
+      </div>
+      <div class="action">
+        <a id="rotating-url" class="btn btn-primary btn-lg btn-block" href="https://fontawesome.com/?utm_source=font_awesome_homepage&amp;utm_medium=display&amp;utm_content=banner&amp;utm_campaign=promo_4.7_update" target="_blank">Pre-order FA Pro! &nbsp;<i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand" href="http://fontawesome.io/"><i class="fa fa-font-awesome" aria-hidden="true"></i> Font Awesome</a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden-sm "><a href="http://fontawesome.io/">Home</a></li>
+        <li class="hidden-sm">
+          <a href="http://fontawesome.io/whats-new/">What's New</a>
+        </li>
+        <li class="hidden-xs hidden-md hidden-lg">
+          <a href="http://fontawesome.io/whats-new/">New</a>
+        </li>
+
+        <li class="hidden-sm"><a href="http://fontawesome.io/get-started/">Get Started</a></li>
+        <li class="hidden-xs hidden-md hidden-lg">
+          <a href="http://fontawesome.io/get-started/">Start</a>
+        </li>
+
+        <li class="dropdown-split-left"><a href="http://fontawesome.io/icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="http://fontawesome.io/icon/circle-o/#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down" aria-hidden="true" title="Toggle dropdown menu"></i>
+            <span class="sr-only">Toggle dropdown menu</span>
+            <span class="toggle drop down"></span>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="http://fontawesome.io/icons/"><i class="fa fa-flag fa-fw" aria-hidden="true"></i>&nbsp; All Icons</a></li>
+            <li class="divider"></li>
+            <li><a href="http://fontawesome.io/icons/#new"><i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>&nbsp; New Icons in 4.7</a></li>
+            <li><a href="http://fontawesome.io/icons/#web-application"><i class="fa fa-camera-retro fa-fw" aria-hidden="true"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#accessibility"><i class="fa fa-universal-access fa-fw" aria-hidden="true"></i>&nbsp; Accessibility Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#hand"><i class="fa fa-hand-spock-o fa-fw" aria-hidden="true"></i>&nbsp; Hand Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#transportation"><i class="fa fa-ship fa-fw" aria-hidden="true"></i>&nbsp; Transportation Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#gender"><i class="fa fa-venus fa-fw" aria-hidden="true"></i>&nbsp; Gender Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#file-type"><i class="fa fa-file-image-o fa-fw" aria-hidden="true"></i>&nbsp; File Type Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#spinner"><i class="fa fa-spinner fa-fw" aria-hidden="true"></i>&nbsp; Spinner Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#form-control"><i class="fa fa-check-square fa-fw" aria-hidden="true"></i>&nbsp; Form Control Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#payment"><i class="fa fa-credit-card fa-fw" aria-hidden="true"></i>&nbsp; Payment Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#chart"><i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>&nbsp; Chart Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#currency"><i class="fa fa-won fa-fw" aria-hidden="true"></i>&nbsp; Currency Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#text-editor"><i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>&nbsp; Text Editor Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#directional"><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>&nbsp; Directional Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#video-player"><i class="fa fa-play-circle fa-fw" aria-hidden="true"></i>&nbsp; Video Player Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#brand"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>&nbsp; Brand Icons</a></li>
+            <li><a href="http://fontawesome.io/icons/#medical"><i class="fa fa-medkit fa-fw" aria-hidden="true"></i>&nbsp; Medical Icons</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-split-left"><a href="http://fontawesome.io/examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="http://fontawesome.io/icon/circle-o/#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down" aria-hidden="true" title="Toggle dropdown menu"></i>
+            <span class="sr-only">Toggle dropdown menu</span>
+            <span class="toggle drop down"></span>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="http://fontawesome.io/examples/">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="http://fontawesome.io/examples/#basic">Basic Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#larger">Larger Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#fixed-width">Fixed Width Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#list">List Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#bordered-pulled">Bordered &amp; Pulled Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#animated">Animated Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#accessible">Accessibility-Minded</a></li>
+            <li><a href="http://fontawesome.io/examples/#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#stacked">Stacked Icons</a></li>
+            <li><a href="http://fontawesome.io/examples/#bootstrap">Bootstrap 3 Examples</a></li>
+            <li><a href="http://fontawesome.io/examples/#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+        <li class="hidden-sm"><a href="http://fontawesome.io/accessibility/">Accessibility</a></li>
+        <li class="hidden-xs hidden-md hidden-lg"><a href="http://fontawesome.io/accessibility/"><i class="fa fa-universal-access"></i></a></li>
+        <li><a href="http://fontawesome.io/community/">Community</a></li>
+        <li><a href="http://fontawesome.io/license/">License</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://articles.fortawesome.com/">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <div class="jumbotron jumbotron-icon">
+  <div class="container">
+    <div class="info-icons">
+      <i class="fa fa-circle-o fa-6" aria-hidden="true"></i>
+      <span class="sr-only">Example of circle-o at 6x</span>&nbsp;&nbsp;
+      <span class="hide-xs">
+        <i class="fa fa-circle-o fa-5" aria-hidden="true"></i>
+        <span class="sr-only">Example of circle-o at 5x</span>
+        &nbsp;&nbsp;
+        <span class="hide-sm">
+          <i class="fa fa-circle-o fa-4" aria-hidden="true"></i>
+          <span class="sr-only">Example of circle-o at 4x</span>
+          &nbsp;&nbsp;
+        </span>
+        <i class="fa fa-circle-o fa-3" aria-hidden="true"></i>
+        <span class="sr-only">Example of circle-o at 3x</span>
+        &nbsp;&nbsp;
+        <i class="fa fa-circle-o fa-2" aria-hidden="true"></i>
+        <span class="sr-only">Example of circle-o at 2x</span>
+        &nbsp;
+      </span>
+      <i class="fa fa-circle-o fa-1" aria-hidden="true"></i>
+      <span class="sr-only">Example of circle-o</span>
+    </div>
+    <h1 class="info-class">
+      fa-circle-o
+      <small>
+        <i class="fa fa-circle-o" aria-hidden="true"></i> ·
+        Unicode: <span class="upper">f10c</span> ·
+        Created: v3.0 ·
+        Categories:
+        
+          Web Application Icons,
+        
+          Form Control Icons
+        
+        
+        
+        
+      </small>
+    </h1>
+  </div>
+</div>
+
+<div class="container">
+  <section>
+    <div class="row">
+      <div class="col-md-9 col-sm-9">
+        <p>After you get <a href="http://fontawesome.io/get-started/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
+        <div class="well well-transparent">
+          <div style="font-size: 24px; line-height: 1.5em;">
+            <i class="fa fa-circle-o" aria-hidden="true"></i><span class="sr-only">Example of circle-o</span> fa-circle-o
+          </div>
+        </div>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-circle-o"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span>
+</code></pre></div>
+        <p class="margin-bottom-lg">
+          <small class="text-muted">Note: to improve <a href="http://fontawesome.io/accessibility/">web accessibility</a>, we recommend using <strong>aria-hidden="true"</strong> to hide icons used purely for decoration.</small>
+        </p>
+
+        <div class="lead">
+          <i class="fa fa-info-circle" aria-hidden"true"=""></i> Looking for more? Check out the <a href="http://fontawesome.io/examples/">examples</a>.
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="vertical-ad"><script async="" type="text/javascript" src="./fa-circle-o_files/carbon.js.descarga" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="http://srv.carbonads.net/ads/click/x/GTND4237CY7IPKJNCY74YKQWF6SDVKJEC6BDKZ3JCEAIK237CAADEKQKC6BDL2JICWYDEK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:fontawesome;&amp;encredirect=https%3A%2F%2Fslack.com%2Fone%3Fcvosrc%3Ddisplay.carbon.pink%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dpink%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DPink%20Dev" class="carbon-img" target="_blank"><img src="./fa-circle-o_files/32053" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="http://srv.carbonads.net/ads/click/x/GTND4237CY7IPKJNCY74YKQWF6SDVKJEC6BDKZ3JCEAIK237CAADEKQKC6BDL2JICWYDEK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:fontawesome;&amp;encredirect=https%3A%2F%2Fslack.com%2Fone%3Fcvosrc%3Ddisplay.carbon.pink%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dpink%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DPink%20Dev" class="carbon-text" target="_blank">Slack - it's teamwork, but simpler, more pleasant and more productive.</a></span><a href="http://carbonads.net/?utm_source=fontawesome&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank">ads via Carbon</a><img src="./fa-circle-o_files/cvo.gif" border="0" height="1" width="1" style="display: none;"><img src="./fa-circle-o_files/v.gif" border="0" height="1" width="1" style="display: none;"></span></div>
+</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  </div>
+  <footer id="footer" class="footer hidden-print">
+  <div class="container text-center">
+    <div id="inventory">
+      <a href="http://www.wpbeginner.com/?utm_source=fontawesome_footer&amp;utm_medium=banner&amp;utm_campaign=fontawesome" title="Beginner&#39;s Guide to WordPress" target="_blank" rel="nofollow" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Outbound Link&#39;, &#39;wpbeginner.com&#39;]);">
+        <img src="./fa-circle-o_files/logo-wpbeginner.png" width="220" height="65" alt="">
+      </a>
+      <a href="http://themeisle.com/?utm_source=fontawesome_footer&amp;utm_medium=banner&amp;utm_campaign=fontawesome" title="Premium Wordpress Themes" target="_blank" rel="nofollow" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Outbound Link&#39;, &#39;themeisle.com&#39;]);">
+        <img src="./fa-circle-o_files/logo-themeisle.png" width="220" height="65" alt="">
+      </a>
+    </div>
+    <div>
+      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome 4.7.0
+      <span class="hide-xs">·</span><br class="hide-sm hide-md hide-lg">
+      Created by <a href="https://twitter.com/davegandy">Dave Gandy</a>
+    </div>
+    <div>
+      Font Awesome licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
+      <span class="hide-xs">·</span><br class="hide-sm hide-md hide-lg">
+      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
+      <span class="hide-xs hide-sm">·</span><br class="hide-md hide-lg">
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+    </div>
+    <div>
+      Thanks to <a href="http://tracking.maxcdn.com/c/148092/3982/378/"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="https://www.bootstrapcdn.com/fontawesome/">BootstrapCDN for Font Awesome</a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> ·
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues">Issues</a> ·
+      <a href="http://fontawesome.io/3.2.1">Old 3.2.1 Docs</a>
+    </div>
+  </div>
+</footer>
+
+  <div class="modal" id="modal-fa5" tabindex="-1" role="dialog" aria-labelledby="modal-fa5-label">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i><span class="close"></span></button>
+        <h2 class="modal-title" id="modal-fa5-label">Font Awesome 5 Pre-Orders Now Available!</h2>
+      </div>
+      <div class="modal-body">
+
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+        <div class="embed-container">
+          <iframe id="fa5-iframe" src="./fa-circle-o_files/video.html" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+        </div>
+
+        <p class="lead text-center margin-top-lg margin-bottom-lg">
+          Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!
+        </p>
+        <a class="btn btn-fa5 btn-lg btn-block" href="http://five.fontawesome.com/" target="_blank" onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Outbound Modal Link&#39;, &#39;Pre-Order&#39;]);">
+          <h3 class="margin text-sans-serif strong">Pre-Order! &nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i></h3>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="./fa-circle-o_files/widgets.js.descarga"></script>
+  <script src="./fa-circle-o_files/jquery.min.js.descarga"></script>
+  <script src="./fa-circle-o_files/jquery.validate.min.js.descarga"></script>
+  <script src="./fa-circle-o_files/bootstrap.min.js.descarga"></script>
+  <script src="./fa-circle-o_files/algoliasearch.jquery.min.js.descarga" integrity="sha256-2MTQjOt4Q02v+W/QjgCO5yv+si9RAo/o/RGR5alVYzY=" crossorigin="anonymous"></script>
+  <script src="./fa-circle-o_files/algoliasearch.helper.min.js.descarga" integrity="sha256-MhjLBzVVNkMEKnIE2ueYNb7QSj+oiSv4x89dlui09hg=" crossorigin="anonymous"></script>
+  <script src="./fa-circle-o_files/underscore-min.js.descarga" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script>
+  <script src="./fa-circle-o_files/backbone-min.js.descarga" integrity="sha256-p6bkfFqmxtebrKOS+wyGi+Qf3d111eWUQP67keyXJ6Q=" crossorigin="anonymous"></script>
+  <script src="./fa-circle-o_files/jsdelivr-rum.min.js.descarga" integrity="sha256-HlY2rbkgbiHhtilMXmQ86rjL/EIxGDtdg9GU9/T2ZxE=" crossorigin="anonymous"></script>
+  <script src="./fa-circle-o_files/site.js.descarga"></script>
+  <script src="./fa-circle-o_files/search.js.descarga"></script>
+  <script src="./fa-circle-o_files/monetization.js.descarga" type="text/javascript"></script>
+
+  <script>
+    (function(){
+      // format, zoneKey, segment:value, options
+      _bsa.init('imageonly', 'CVADP2Y', 'placement:demo', {
+        target: '#inventory',
+        disable_css: true,
+        path: 'http://inventory.fontawesome.io/api/inventory?zone=CVADP2Y'
+      });
+    })();
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '590758314440297');
+  fbq('track', "PageView");</script>
+  <noscript>&lt;img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=590758314440297&amp;ev=PageView&amp;noscript=1"
+  /&gt;</noscript>
+  <!-- End Facebook Pixel Code -->
+  
+
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./fa-circle-o_files/saved_resource.html"></iframe><script async="" src="./fa-circle-o_files/radar.js.descarga"></script><span class="_hsShareImage hsShareImage">&nbsp;</span></body></html>

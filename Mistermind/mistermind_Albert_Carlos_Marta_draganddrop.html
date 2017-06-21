@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MiSTERMIND</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#div1, #div2 {
+		    float: left;
+		    width: 100px;
+		    height: 35px;
+		    margin: 10px;
+		    padding: 10px;
+		    border: 1px solid black;
+		}
+	</style>
+	<script type="text/javascript">
+		var resul=[""];
+		var colores=["red.png","yellow.png","black.png","blue.png","green.png","grey.png","orange.png","purple.png"]; // aqui tenemos que modificar la ruta de la imagen
+		var i; // recorre para random
+		var j; // recorre para colores
+		function azar() {
+		  for (var i = 0; i < 4; i++) {
+		  	
+		    var x = Math.floor((Math.random() * 7) + 0);
+		    for (var j = 0; j < colores.length; j++) {
+		    	if (x==j) {
+					document.getElementById("demo"+i).innerHTML = "<img src='"+ colores[j] + "'>"
+		    	} // close if
+		    } // close for (j)
+		  } // close for (i)
+		} // close function azar() 
+
+		function allowDrop(ev) {
+		    ev.preventDefault();
+		}
+
+		function drag(ev) {
+		    ev.dataTransfer.setData("text", ev.target.id);
+		}
+
+		function drop(ev) {
+		    ev.preventDefault();
+		    var data = ev.dataTransfer.getData("text");
+		    ev.target.appendChild(document.getElementById(data));
+		}
+
+
+		window.onload = function(){
+			azar();
+		}
+	</script>
+</head>
+<body>
+	<h1>MisterMind</h1>
+	<p>Si has acertado y te sale:
+	<br>Negro= Posición y color
+	<br>Blanco= Sólo Color</p>
+	<p>Si no sabes como funciona el MasterMind, <a href="https://es.wikipedia.org/wiki/Mastermind" target="_blank">haz clic aquí</a></p>
+	<div>
+		<h3>¿Cuantos jugadores sois?</h3>
+		<button>1P</button>
+		<button>2P</button>
+	</div>
+
+	<div>
+		<p>Elige resultado</p>
+		<table border="1">
+			<tr>
+				<td id="demo0">hola</td>
+				<td id="demo1"></td>
+				<td id="demo2"></td>
+				<td id="demo3"></td>
+			</tr>
+		</table>
+		<button onclick="GuardarArray()">Guardar resultado</button>
+	</div>
+
+	<div>
+		<table border="1">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td> <!-- RESULTADOS --> 
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td> <!-- RESULTADOS --> 
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td> <!-- RESULTADOS --> 
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td> <!-- RESULTADOS --> 
+			</tr>
+			
+		</table>
+	</div>
+
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+		<img id="div1" src="blue.png" draggable="true"
+		ondragstart="drag(event)" width="336" height="69">
+		
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</body>
+</html>
